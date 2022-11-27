@@ -1,0 +1,22 @@
+
+
+from src.config.default import _CN as cfg
+
+cfg.TRAINER.MSLR_MILESTONES = [20, 40, 60, 80, 100, 120]
+
+cfg.TRAINER.TRUE_LR=2e-4
+cfg.TRAINER.DATA_SAMPLER = 'scene_balance' 
+
+cfg.MODEL.CODE_NUM=100
+cfg.MODEL.D_MODEL=256
+cfg.MODEL.RESNETFPN.BLOCK_DIMS = [128, 196, 256] 
+cfg.MODEL.RESNETFPN.INITIAL_DIM = 128
+cfg.MODEL.TRANS_BLOCK_NUM=6
+cfg.MODEL.BACKBONE_FREEZE=True
+cfg.MODEL.N_SAMPLE_POINTS = 1000
+cfg.MODEL.N_SAMPLE_IN_VOXEL_POINTS = 500
+cfg.TRAINER.SCORE_THRESH=0.5
+
+cfg.TRAINER.PRUNE_FINETUNE=True
+cfg.TRAINER.PRUNE_THRESH=0.15 # This value is not stable, please re-compute for different checkpoints
+cfg.LOSS.SPARSITY_LOSS=False
