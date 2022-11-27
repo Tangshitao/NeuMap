@@ -113,7 +113,7 @@ Train network
 ```
 bash scripts/reproduce_train/scannet.sh
 ```
-Finetune code for new scenes
+Finetune codes for new scenes
 ```
 bash scripts/reproduce_train/scannet_code_finetune.sh
 ```
