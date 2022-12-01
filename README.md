@@ -42,7 +42,7 @@ data
 ```
 
 ### Aachen
-We provide the processed data in [Google Drive](https://drive.google.com/file/d/1a-am7fk54EzcL-fGo6d7hFDV-lRA-e4K/view?usp=share_link)/[Dropbox](https://www.dropbox.com/s/qjjgfy2pcs3ka2x/aachen.tar?dl=0) and the label files in [Google Drive](https://drive.google.com/file/d/106uvy1b4hZK10rvUfoM6n5p8hNL2HVKw/view?usp=share_link)/[Dropbox](https://www.dropbox.com/s/7mszrb7iz44rg8z/aachen_label.tar?dl=0).
+We provide the processed data in [Google Drive](https://drive.google.com/file/d/1a-am7fk54EzcL-fGo6d7hFDV-lRA-e4K/view?usp=share_link)/[Dropbox](https://www.dropbox.com/s/qjjgfy2pcs3ka2x/aachen.tar?dl=0) and the label files in [Google Drive](https://drive.google.com/file/d/106uvy1b4hZK10rvUfoM6n5p8hNL2HVKw/view?usp=share_link)/[Dropbox](https://www.dropbox.com/s/7mszrb7iz44rg8z/aachen_label.tar?dl=0). Please submit the corresponding `pose.txt` file in the result directory to [this link](https://www.visuallocalization.net/) for evaluation.
 ```
 bash scripts/reproduce_test/aachen_v10.sh
 ```
@@ -119,7 +119,7 @@ bash scripts/reproduce_train/scannet_code_finetune.sh
 ```
 
 ## Data size
-To get data size, please refer to `tools/get_params.py` and tools/`get_params_cambridge.py`.
+To get data size, please refer to `tools/get_params.py` and `tools/get_params_cambridge.py`.
 
 ## Process data
 We provide example codes to divide scenes to voxels and generate label files in `tools/get_label_file.py` and `tools/get_query_file.py`. 
