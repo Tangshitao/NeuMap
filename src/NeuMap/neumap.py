@@ -22,7 +22,7 @@ class NeuMap(nn.Module):
         self.backbone_freeze=config['model']['backbone_freeze'] # freeze the backbone
         self.code_finetune=config['trainer']['code_finetune'] # fintune code, make sure to free other parameters
 
-        self.prune_finetune=config['trainer']['prune_finetune'] # prune codes, and finetune the reset
+        self.prune_finetune=config['trainer']['prune_finetune'] # prune codes, and finetune the rest
         self.prune_thresh=config['trainer']['prune_thresh'] # prune codes larger than threshold
 
         # Modules
