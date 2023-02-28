@@ -1,4 +1,4 @@
-This repository contains codes for ["NeuMap: Neural Coordinate Mapping by Auto-Transdecoder for Camera Localization"](https://arxiv.org/abs/2211.11177).
+This repository contains codes for CVPR2023 paper ["NeuMap: Neural Coordinate Mapping by Auto-Transdecoder for Camera Localization"](https://arxiv.org/abs/2211.11177).
 
 ![demo_vid](teaser.png)
 
