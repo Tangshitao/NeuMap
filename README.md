@@ -135,3 +135,7 @@ python tools/get_query_file.py \
     --train_list_path data/kapture/train_list/aachen_debug.txt
 ```
 To run custom dataset, please first use r2d2 to generate key-points and triangulate 3D points with COLMAP. Then, convert the COLMAP output files to the same format as `data/kapture/aachen1.0/mapping/points`. 
+
+
+##Acknowledgement
+We thank Martin Humenberger and Philippe Weinzaepfel for their codes of ESAC in NAVER LAB datasets. We thank Luwei Yang to evaluate Squeezer under different data sizes. We thank Jiahui Zhang and Jiacheng Chen for proof reading. The research is supported by NSERC Discovery Grants, NSERC Discovery Grants Accelerator Supplements, DND/NSERC Discovery Grant Supplement, and John R. Evans Leaders Fund (JELF).
