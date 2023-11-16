@@ -12,7 +12,8 @@ If you find this project useful, please cite:
 }
 ```
 
-The codes are based on [LoFTR](https://github.com/zju3dv/LoFTR).
+The codes are based on [LoFTR](https://github.com/zju3dv/LoFTR). 
+## We made a mistake when evaluating GreatCourt of Cambridge. Only part of testing images are evaluated. The number in the paper is unreliable. 
 
 ## Installation
 ```shell
